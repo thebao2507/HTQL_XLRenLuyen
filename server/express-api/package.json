@@ -1,0 +1,11 @@
+{
+  "name": "api-qlxlrl",
+  "version": "1.0.0",
+  "description": "qlhtxlrl",
+  "main": "index.js",
+  "author": "thebao",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
