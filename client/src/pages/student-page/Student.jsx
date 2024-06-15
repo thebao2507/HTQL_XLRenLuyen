@@ -1,12 +1,13 @@
 import React from 'react'
-import PropTypes from 'prop-types'
+import MenuManagement from '../../components/menuManagement/MenuManagement'
 
 const Student = props => {
     return (
-        <div>Student</div>
+        <div className='flex h-screen overflow-hidden'>
+            <MenuManagement />
+            <div>Student</div>
+        </div>
     )
 }
-
-Student.propTypes = {}
 
 export default Student

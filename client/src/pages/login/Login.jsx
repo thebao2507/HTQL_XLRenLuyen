@@ -11,7 +11,7 @@ const Login = () => {
             </div>
 
             <div className='w-1/2 h-full bg-[#E0E0E0] flex flex-col p-20 justify-between slide-y-r'>
-                <div className="w-full flex flex-col translate-y-1/2">
+                <div className="w-full flex flex-col">
                     <div className="px-8 rounded-xl">
                         <h1 className="font-medium text-3xl mt-3 text-center text-blue-400">QUY NHON UNIVERSITY</h1>
                         {/* <form action="" className="mt-6" onSubmit={handleSubmit}> */}
