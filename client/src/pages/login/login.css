@@ -1,0 +1,32 @@
+@keyframes slide-y-l {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slide-y-r {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.trai {
+    animation: slide-y-l ls ease forwards;
+    
+}
+
+.phai {
+    animation: slide-y-r ls ease forwards;
+}
