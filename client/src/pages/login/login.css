@@ -22,11 +22,10 @@
     }
 }
 
-.trai {
-    animation: slide-y-l ls ease forwards;
-    
+.slide-y-l {
+    animation: slide-y-l 1s ease forwards;
 }
 
-.phai {
-    animation: slide-y-r ls ease forwards;
+.slide-y-r {
+    animation: slide-y-r 1s ease forwards;
 }
